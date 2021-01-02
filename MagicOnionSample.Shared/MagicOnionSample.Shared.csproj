@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MagicOnion" Version="4.0.4" />
+        <PackageReference Include="MagicOnion.Abstractions" Version="4.0.4" />
+        <PackageReference Include="MessagePack" Version="2.2.85" />
+        <PackageReference Include="MessagePack.UnityShims" Version="2.2.85" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="../MagicOnionSample.Unity/Assets/MagicOnionSample/Scripts/Shared/**/*.cs" />
+    </ItemGroup>
+
+</Project>
